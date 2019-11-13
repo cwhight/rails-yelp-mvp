@@ -8,5 +8,7 @@
   <% end %>
 </ul>
 
+<%= render 'reviews/form' %>
+
 <%= link_to 'Add Review', new_restaurant_review_path(@restaurant), class: "btn btn-primary" %>
-<%= link_to 'Home', restaurants_path, class: "btn btn-primary" %>
+
